@@ -1,0 +1,82 @@
+footer {
+  padding: 80px 0;
+  background: #063255;
+}
+
+.footer-style {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 100px;
+}
+
+.footer-links {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 24px;
+}
+
+.footer-b-link {
+  color: #fff;
+  max-width: 340px;
+  text-decoration: none;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: -0.03em;
+}
+
+.footer-title {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+.footer-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+form {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 20px;
+}
+
+input {
+  width: 342px;
+  height: 54px;
+  border-radius: 31px;
+  background: #fff;
+  padding-left: 32px;
+  color: #9c9c9c;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.36px;
+}
+
+.footer-btn {
+  width: 156px;
+  height: 54px;
+  background: #f58a07;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  line-height: 19.17px;
+  transition: 0.2s;
+  border-radius: 31px;
+}
+
+.footer-btn:active {
+  transform: scale(0.95);
+}

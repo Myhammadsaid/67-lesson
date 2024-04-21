@@ -1,0 +1,54 @@
+.contact-pars {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 64px;
+}
+.contact-text {
+  max-width: 500px;
+  color: #0d1317;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: -0.03em;
+}
+.contact-par {
+  color: #0d1317;
+  max-width: 620px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+}
+.contact-cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 66px;
+  margin-bottom: 108px;
+}
+.contact-card {
+  max-width: 264px;
+}
+.contact-stock {
+  color: #f58a07;
+  margin-bottom: 16px;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 50px;
+}
+.contact-text2 {
+  color: #0d1317;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 25.56px;
+  letter-spacing: -0.03em;
+  margin-bottom: 16px;
+}
+.contact-par2 {
+  color: #5b5b5b;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+}
