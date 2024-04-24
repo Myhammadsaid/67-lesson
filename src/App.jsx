@@ -5,6 +5,8 @@ import Service from "./pages/services/service";
 import Careers from "./pages/careers/careers";
 import Blogs from "./pages/blogs/blogs";
 import Error from "./pages/Erorr/Error";
+import Product from "./pages/products/Product";
+import Single from "./pages/single/Single";
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
         <Route path="/service" element={<Service />} />
         <Route path="/careers" element={<Careers />} />
         <Route path="/blog" element={<Blogs />} />
+        <Route path="/product" element={<Product />} />
+        <Route path="/product/:id" element={<Single />} />
         <Route path="*" element={<Error />} />
       </Routes>
     </>

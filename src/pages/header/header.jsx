@@ -36,6 +36,9 @@ const header = () => {
               <Link className="nav-link" to={"/blog"}>
                 Blog
               </Link>
+              <Link className="nav-link" to={"/product"}>
+                Product
+              </Link>
               <button className="nav-btn">Clone project</button>
             </div>
             <button onClick={toggles} class="menu-btn" id="menu-btn">
